@@ -3,6 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Szacowanie liczby włosów" Height="350" Width="400">
     <Grid Margin="10">
+        <TextBlock Text="Gęstość włosów (włosy/cm²):" VerticalAlignment="Top" Margin="0,0,0,5"/>
+        <TextBox Name="gestoscTextBox" VerticalAlignment="Top" Margin="0,20,0,0" Height="25"/>
+
+        <TextBlock Text="Obwód głowy (cm):" VerticalAlignment="Top" Margin="0,55,0,5"/>
+        <TextBox Name="obwodTextBox" VerticalAlignment="Top" Margin="0,75,0,0" Height="25"/>
+
+        <TextBlock Text="Wysokość czoła (cm):" VerticalAlignment="Top" Margin="0,110,0,5"/>
+        <TextBox Name="wysokoscTextBox" VerticalAlignment="Top" Margin="0,130,0,0" Height="25"/>
         
     </Grid>
 </Window>
