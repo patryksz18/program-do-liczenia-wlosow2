@@ -11,6 +11,13 @@
 
         <TextBlock Text="Wysokość czoła (cm):" VerticalAlignment="Top" Margin="0,110,0,5"/>
         <TextBox Name="wysokoscTextBox" VerticalAlignment="Top" Margin="0,130,0,0" Height="25"/>
+
+        <Button Content="Oblicz liczbę włosów" VerticalAlignment="Top" Margin="0,170,0,0" Height="30" Click="Oblicz_Click"/>
+
+        <TextBlock Name="wynikTextBlock" VerticalAlignment="Top" Margin="0,220,0,0" Height="25"/>
+        <TextBlock Name="porownanieTextBlock" VerticalAlignment="Top" Margin="0,250,0,0" Height="25"/>
+
+        <Button Content="Resetuj" VerticalAlignment="Top" Margin="0,280,0,0" Height="30" Click="Resetuj_Click"/>
         
     </Grid>
 </Window>
