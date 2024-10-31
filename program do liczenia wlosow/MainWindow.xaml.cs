@@ -38,5 +38,14 @@ namespace SzacowanieWlosowNaGlowie
                 MessageBox.Show("Wprowadź poprawne dane liczbowe!", "Błąd", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+        private void Resetuj_Click(object sender, RoutedEventArgs e)
+        {
+            glowa.Resetuj();
+            gestoscTextBox.Clear();
+            obwodTextBox.Clear();
+            wysokoscTextBox.Clear();
+            wynikTextBlock.Text = "";
+            porownanieTextBlock.Text = "";
+        }
     }
 }
