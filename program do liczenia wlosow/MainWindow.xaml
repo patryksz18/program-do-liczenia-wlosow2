@@ -1,0 +1,8 @@
+﻿<Window x:Class="SzacowanieWlosowNaGlowie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Szacowanie liczby włosów" Height="350" Width="400">
+    <Grid Margin="10">
+        
+    </Grid>
+</Window>
